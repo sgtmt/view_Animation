@@ -13,6 +13,7 @@
 		076680CA1D7F3B280005BC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076680C91D7F3B280005BC8E /* Assets.xcassets */; };
 		076680CD1D7F3B290005BC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076680CB1D7F3B290005BC8E /* LaunchScreen.storyboard */; };
 		076680D81D7F3B2B0005BC8E /* viewAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076680D71D7F3B2B0005BC8E /* viewAnimationUITests.swift */; };
+		076680E31D7F3E030005BC8E /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076680E21D7F3E030005BC8E /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		076680D31D7F3B2B0005BC8E /* viewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		076680D71D7F3B2B0005BC8E /* viewAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewAnimationUITests.swift; sourceTree = "<group>"; };
 		076680D91D7F3B2B0005BC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076680E21D7F3E030005BC8E /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				076680C21D7F3B270005BC8E /* AppDelegate.swift */,
 				076680C41D7F3B270005BC8E /* ViewController.swift */,
+				076680E21D7F3E030005BC8E /* NextViewController.swift */,
 				076680C61D7F3B270005BC8E /* Main.storyboard */,
 				076680C91D7F3B280005BC8E /* Assets.xcassets */,
 				076680CB1D7F3B290005BC8E /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				076680C51D7F3B270005BC8E /* ViewController.swift in Sources */,
+				076680E31D7F3E030005BC8E /* NextViewController.swift in Sources */,
 				076680C31D7F3B270005BC8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
